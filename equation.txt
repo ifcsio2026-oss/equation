@@ -1,10 +1,20 @@
 Debut 
 Saisir a, b, c
 Calculer delta = b2-4ac
+
 Si d > 0
+ Deux solution
+ solution x1, Calculer (-b + racine carré de delta / 2a)
+ solution x2, Calculer (-b - racine carré de delta / 2a)
 
 Sinon, si d < 0
-
-Sinon (d=0)
+ Auncune solution reel 
+ Sinon (d=0)
+ x1= x2, Calculer -(b/2a)
 
 FinSi
+
+ Afficher les solutions 
+ x1
+ x2
+Fin
